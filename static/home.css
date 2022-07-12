@@ -1,0 +1,67 @@
+{% load static %}
+body, html{
+	height: 100%;
+	margin: 0;
+}
+.home{
+	background: linear-gradient(to right, lightblue, lightgreen);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	color: black;
+	font-family: 	Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 25px;
+}
+.home .center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align:  center;
+}
+.button-group .bt1{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #f1f1f1;
+	color: black;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+}
+.button-group .bt1:hover{
+	background-color: black;
+	color:white;
+}
+
+.button-group .bt2{
+	position: relative;
+	top: 50%;
+	right: 20%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #f1f1f1;
+	color: black;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+}
+.button-group .bt2:hover{
+	background-color: black;
+	color:white;
+}
+.credits{
+	position: fixed;
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: black;
+}
